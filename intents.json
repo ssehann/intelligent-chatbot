@@ -1,0 +1,116 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?",
+        "Hey! What can I do for you today?",
+        "Greetings! How can I assist you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Take care!",
+        "Catch you later!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "programming",
+      "patterns": ["What is programming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+      "responses": [
+        "Programming, coding, or software development involves writing computer code to create software applications.",
+        "It's the process of designing and building executable computer software to accomplish a specific task.",
+        "Programming is how we give instructions to a computer to perform tasks.",
+        "Coding refers to writing in programming languages to create software or applications."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "how",
+      "patterns": ["How are you?", "How is your day?", "How do you feel?", "Are you good?"],
+      "responses": [
+        "I am fine, thanks for asking!",
+        "I feel great!",
+        "I’m doing well, how about you?",
+        "I’m here and ready to help!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "Tell me the weather", "How's the weather today?", "Is it raining?"],
+      "responses": [
+        "I can't check the weather right now, but you can check a weather website or app for the latest updates.",
+        "Sorry, I don’t have real-time weather updates. Please check your local weather service.",
+        "For current weather conditions, please refer to a weather forecasting website or app.",
+        "I suggest checking a weather app for the latest weather information."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "news",
+      "patterns": ["What's the latest news?", "Tell me the news", "Any news updates?", "Give me some news"],
+      "responses": [
+        "I don't have real-time news updates, but you can visit a news website for the latest headlines.",
+        "For the latest news, please check your favorite news outlet.",
+        "I suggest visiting a news portal for the most recent updates.",
+        "News websites or apps will have the latest headlines and stories."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "jokes",
+      "patterns": ["Tell me a joke", "Make me laugh", "I need a joke", "Can you tell me something funny?"],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "What do you call fake spaghetti? An impasta!",
+        "Why did the bicycle fall over? Because it was two-tired!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "technology",
+      "patterns": ["Tell me about the latest technology", "What are some new tech trends?", "Any news in technology?", "What's trending in tech?"],
+      "responses": [
+        "Technology is always advancing. Check out the latest tech blogs for updates.",
+        "Keep up with tech news to learn about new innovations and trends.",
+        "New technology trends include AI, IoT, and quantum computing.",
+        "Stay tuned to tech news sites for the latest developments in technology."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ai",
+      "patterns": ["What is artificial intelligence?", "Tell me about AI", "How does AI work?", "What are some uses of AI?"],
+      "responses": [
+        "Artificial Intelligence (AI) involves creating computer systems that can perform tasks typically requiring human intelligence.",
+        "AI can be used for various applications, such as natural language processing, image recognition, and decision-making.",
+        "AI systems learn from data and improve their performance over time.",
+        "Common uses of AI include virtual assistants, recommendation systems, and autonomous vehicles."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": ["What is machine learning?", "Tell me about machine learning", "How does machine learning work?", "What are some applications of machine learning?"],
+      "responses": [
+        "Machine Learning is a subset of AI that involves training algorithms to learn from and make predictions or decisions based on data.",
+        "In machine learning, models are trained on data to identify patterns and make predictions without explicit programming.",
+        "Applications of machine learning include spam detection, image recognition, and predictive analytics.",
+        "Machine learning algorithms improve their accuracy as they are exposed to more data."
+      ],
+      "context_set": ""
+    }
+  ]
+}

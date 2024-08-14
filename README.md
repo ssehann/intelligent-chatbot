@@ -16,5 +16,5 @@ A chatbot built using a neural network model. It's trained to classify user inpu
 - run chatbot.py script to interact with the trained chatbot
 - customize your chatbot by adding on to intents.json and re-training the model
 - demo screenshot
-<img src="model/convo.png" width="200">
+<img src="model/convo.png" width="500">
 
